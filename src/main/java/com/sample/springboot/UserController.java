@@ -1,9 +1,11 @@
+```java
 package com.sample.springboot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
@@ -22,10 +24,21 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    // Bug: It deletes instead of updating
+    // Fixed: Now updates the user instead of deleting
     @PutMapping("/{id}")
-    public void updateUser(@PathVariable Long id, @RequestBody User user) {
-        userRepository.deleteById(id);
+    public User updateUser(@PathVariable Long id, @RequestBody User user) {
+        Optional<User> existingUserOptional = userRepository.findById(id);
+        if (existingUserOptional.isPresent()) {
+            User existingUser = existingUserOptional.get();
+            // Assuming you want to update all fields of the user; adjust as necessary
+            existingUser.setName(user.getName());
+            existingUser.setEmail(user.getEmail());
+            // Add any other fields that need to be updated
+            return userRepository.save(existingUser);
+        } else {
+            // Handle the case where the user doesn't exist
+            throw new UserNotFoundException("User with id " + id + " not found.");
+        }
     }
 }
-
+```

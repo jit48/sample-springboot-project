@@ -1,5 +1,5 @@
+```java
 package com.sample.springboot;
-
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,10 +28,6 @@ public class User {
         return age;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -40,10 +36,14 @@ public class User {
         this.age = age;
     }
 
+    public User() {
+        // Default constructor needed by JPA
+    }
+
     public User(Long id, String name, int age) {
         this.id = id;
         this.name = name;
         this.age = age;
     }
 }
-
+```

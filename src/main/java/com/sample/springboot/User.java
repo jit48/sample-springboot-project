@@ -1,12 +1,14 @@
+```java
 package com.sample.springboot;
-
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "users") // Explicitly defining table name if necessary
 public class User {
 
     @Id
@@ -15,6 +17,10 @@ public class User {
 
     private String name;
     private int age;
+
+    public User() {
+        // Default constructor for JPA
+    }
 
     public Long getId() {
         return id;
@@ -40,10 +46,10 @@ public class User {
         this.age = age;
     }
 
-    public User(Long id, String name, int age) {
-        this.id = id;
+    // Removed constructor that sets ID to prevent accidental id alteration
+    public User(String name, int age) {
         this.name = name;
         this.age = age;
     }
 }
-
+```

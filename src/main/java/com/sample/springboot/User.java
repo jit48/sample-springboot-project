@@ -1,5 +1,5 @@
+```java
 package com.sample.springboot;
-
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,6 +15,10 @@ public class User {
 
     private String name;
     private int age;
+
+    // Default constructor for JPA
+    public User() {
+    }
 
     public Long getId() {
         return id;
@@ -46,4 +50,6 @@ public class User {
         this.age = age;
     }
 }
+```
 
+Please ensure to review the service or repository layer where the user update operation is handled to pinpoint the cause of the issue.

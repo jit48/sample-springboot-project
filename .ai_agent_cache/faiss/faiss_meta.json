@@ -1,0 +1,406 @@
+{
+  "ids": [
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::26",
+    "class::com.sample.springboot.UserRepository",
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::26",
+    "class::com.sample.springboot.UserRepository",
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::26",
+    "class::com.sample.springboot.UserRepository",
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::26",
+    "class::com.sample.springboot.UserRepository",
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::26",
+    "class::com.sample.springboot.UserRepository",
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::27",
+    "class::com.sample.springboot.UserRepository",
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::27",
+    "class::com.sample.springboot.UserRepository",
+    "class::com.sample.springboot.SpringbootApplication",
+    "class::com.sample.springboot.User",
+    "class::com.sample.springboot.UserController",
+    "method::com.sample.springboot.UserController.@PutMapping::26",
+    "class::com.sample.springboot.UserRepository"
+  ],
+  "metadatas": [
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::26",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 26,
+      "snippet": "    // Bug: It deletes instead of updating\n    @PutMapping(\"/{id}\")\n    public void updateUser(@PathVariable Long id, @RequestBody User user) {\n        userRepository.deleteById(id);\n    }",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    },
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::26",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 26,
+      "snippet": "    // Bug: It deletes instead of updating\n    @PutMapping(\"/{id}\")\n    public void updateUser(@PathVariable Long id, @RequestBody User user) {\n        userRepository.deleteById(id);\n    }",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    },
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::26",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 26,
+      "snippet": "    // Bug: It deletes instead of updating\n    @PutMapping(\"/{id}\")\n    public void updateUser(@PathVariable Long id, @RequestBody User user) {\n        userRepository.deleteById(id);\n    }",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    },
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::26",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 26,
+      "snippet": "    // Bug: It deletes instead of updating\n    @PutMapping(\"/{id}\")\n    public void updateUser(@PathVariable Long id, @RequestBody User user) {\n        userRepository.deleteById(id);\n    }",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    },
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::26",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 26,
+      "snippet": "    // Bug: It deletes instead of updating\n    @PutMapping(\"/{id}\")\n    public void updateUser(@PathVariable Long id, @RequestBody User user) {\n        userRepository.deleteById(id);\n    }",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    },
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::27",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 27,
+      "snippet": "    // Fix: Update user instead of deleting\n    @PutMapping(\"/{id}\")\n    public void updateUser(@PathVariable Long id, @RequestBody User user) {\n        user.setId(id); // Ensure the user object's ID matches the path variable\n        userRepository.save(user);",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    },
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::27",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 27,
+      "snippet": "    // Fix: Update user instead of deleting\n    @PutMapping(\"/{id}\")\n        user.setId(id); // Ensure the user object's ID matches the path variable\n        userRepository.save(user);\n        user.setId(id); // Ensure the user object's ID matches the path variable",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    },
+    {
+      "id": "class::com.sample.springboot.SpringbootApplication",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.SpringbootApplication",
+      "file": "src/main/java/com/sample/springboot/SpringbootApplication.java",
+      "start_line": 7,
+      "snippet": "public class SpringbootApplication {",
+      "summary": "Class or type com.sample.springboot.SpringbootApplication"
+    },
+    {
+      "id": "class::com.sample.springboot.User",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.User",
+      "file": "src/main/java/com/sample/springboot/User.java",
+      "start_line": 10,
+      "snippet": "public class User {",
+      "summary": "Class or type com.sample.springboot.User"
+    },
+    {
+      "id": "class::com.sample.springboot.UserController",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserController",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 10,
+      "snippet": "public class UserController {",
+      "summary": "Class or type com.sample.springboot.UserController"
+    },
+    {
+      "id": "method::com.sample.springboot.UserController.@PutMapping::26",
+      "type": "Method",
+      "fqdn": "com.sample.springboot.UserController.@PutMapping",
+      "file": "src/main/java/com/sample/springboot/UserController.java",
+      "start_line": 26,
+      "snippet": "    // Bug: It deletes instead of updating\n    @PutMapping(\"/{id}\")\n    public void updateUser(@PathVariable Long id, @RequestBody User user) {\n        user.setId(id); // Ensure the user object's ID matches the path variable\n        userRepository.save(user);",
+      "summary": "Method com.sample.springboot.UserController.@PutMapping"
+    },
+    {
+      "id": "class::com.sample.springboot.UserRepository",
+      "type": "Class",
+      "fqdn": "com.sample.springboot.UserRepository",
+      "file": "src/main/java/com/sample/springboot/UserRepository.java",
+      "start_line": 7,
+      "snippet": "public interface UserRepository extends JpaRepository<User, Long> {",
+      "summary": "Class or type com.sample.springboot.UserRepository"
+    }
+  ]
+}

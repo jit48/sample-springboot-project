@@ -25,7 +25,8 @@ public class UserController {
     // Bug: It deletes instead of updating
     @PutMapping("/{id}")
     public void updateUser(@PathVariable Long id, @RequestBody User user) {
-        userRepository.deleteById(id);
+        user.setId(id); // Ensure the user object's ID matches the path variable
+        userRepository.save(user);
     }
 }
 
